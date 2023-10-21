@@ -80,25 +80,48 @@ button:focus-visible {
 /* --------------- */
 
 .homepage {
-  place-items: center;
+    height: 100vh; /* Make it occupy the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* .headliner-content {
   letter-spacing: 0.4em;
   color: #f9f9f9;
 } */
 
-.homepage {
+/* .homepage {
   width: 100%;
   overflow: hidden;  
-}
+} */
 
 .homepage-headliner {
-  height: 100vh;  
-  display: flexbox;
-  flex-direction: column;  
-  justify-content: center;  
-  align-items: space-between; 
-  letter-spacing: 0.6em;
+  /* flex: 1; /* Make it occupy all available space */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15em 0; Add some padding to the top and bottom to prevent the content from sticking too closely to the edges */ 
+  text-align: center;
+  /* margin: 10em; */
+
+}
+
+.headliner-container{
+  margin: 10em 0 10em 0;
+    /* margin-bottom: 10em;  */
+    padding: 5em 0 0 0;
+}
+
+.headliner-content {
+  text-align: center;
+  letter-spacing: 0.8em;
+}
+
+.subheadliner-content {
+  padding: 3em 0;
+  letter-spacing: 0.9em;
 }
 
 .home-buttons {
@@ -141,7 +164,21 @@ button:focus-visible {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; Adjust this to move the background */
+  background-image: url('https://cdn.sanity.io/images/fuvbjjlp/production/99ff1eae28f157a0cc3caad9b5189fe179763697-1920x697.jpg');
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: waveAnimation 10s infinite alternate; 
 }
+
+@keyframes waveAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 
 .headliner {
   position: relative;
@@ -152,6 +189,30 @@ html {
   --cursor-color: white;
 }
 
+.scroll-container {
+  position: relative;
+  display: inline-block; 
+}
+
+.arrow-down {
+  position: absolute;
+  top: 50%; /* Center it vertically */
+  left: 50%; /* Center it horizontally */
+  transform: translate(-50%, -50%); /* Ensure it's centered */
+  z-index: 2; /* Place it above the image */
+}
+
 .rotate-scroll {
+  display: block;
   width: 7em;
+  animation: logo-spin 15s linear infinite;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

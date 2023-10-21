@@ -5,10 +5,13 @@ const Home = () => {
     return (
         <div className="homepage"> 
             <div className="homepage-headliner"> 
-                <h1 className="headliner-content"> GAUSSISCAPE </h1>
-                <div>
-                    <img src={RotateScroll} alt="rotate to scroll" className="rotate-scroll"/>
-                    {/* <HiArrowLongDown size={25} className="rotate-scroll-icon"/> */}
+                <div className="headliner-container">
+                    <h1 className="headliner-content"> GAUSSISCAPE </h1>
+                    <h5 className="subheadliner-content"> THE FUTURE OF GAME DEV TOOL </h5>
+                </div>
+                <div className="scroll-container">
+                    <HiArrowLongDown size={25} className="arrow-down"/>
+                    <img src={RotateScroll}  className="rotate-scroll"/>
                 </div>
             </div>
             <div className="home-buttons">
