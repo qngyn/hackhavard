@@ -82,9 +82,30 @@ button:focus-visible {
 .homepage {
   place-items: center;
 }
-.headliner-content {
+/* .headliner-content {
   letter-spacing: 0.4em;
   color: #f9f9f9;
+} */
+
+.homepage {
+  width: 100%;
+  overflow: hidden;  
+}
+
+.homepage-headliner {
+  height: 100vh;  
+  display: flexbox;
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: space-between; 
+  letter-spacing: 0.6em;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;  
 }
 
 .page-button {
@@ -129,4 +150,8 @@ button:focus-visible {
 
 html {
   --cursor-color: white;
+}
+
+.rotate-scroll {
+  width: 7em;
 }
