@@ -45,6 +45,11 @@ h1 {
   line-height: 1.1;
 }
 
+p {
+  line-height: 2;
+  letter-spacing: 0.05em;
+}
+
 button {
   width: 15em;
   border-radius: 25px;
