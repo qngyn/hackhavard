@@ -4,6 +4,7 @@ import Instruction from './pages/Instruction'
 import Introduction from './pages/Introduction'
 import MainPage from './pages/MainPage'
 import AnimatedCursor from 'react-animated-cursor'
+import Result from './pages/Result'
 
 import './App.css'
 
@@ -24,6 +25,10 @@ function App() {
     {
       path: '/mainpage',
       element: <MainPage />
+    },
+    {
+      path: '/result',
+      element: <Result />
     }
   ])
 

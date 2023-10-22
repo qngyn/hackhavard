@@ -9,10 +9,10 @@ const MainPage = () => {
         if (file) {
             // TODO: Handle the file upload logic here.
             // For demonstration purposes, I'm using a mock promise.
-            await new Promise((resolve) => setTimeout(resolve, 2000));
+            await new Promise((resolve) => setTimeout(resolve, 500));
             
             // Navigate to the new window/page after the upload is complete
-            navigate('/new-window');
+            navigate('/result');
         }
     };
 
