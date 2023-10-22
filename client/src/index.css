@@ -274,3 +274,8 @@ button:focus-visible {
 .upload-button:hover {
   background-color: #990147;
 }
+
+.project {
+  padding: 1em;
+  margin: 2em;
+}

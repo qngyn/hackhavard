@@ -39,6 +39,10 @@ const MainPage = () => {
                 <Button to="/instruction">
                     INSTRUCTION
                 </Button>
+
+                <Button to="/example">
+                    EXAMPLE PROJECTS
+                </Button>
             </div>
         </div>
     )
