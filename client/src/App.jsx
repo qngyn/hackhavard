@@ -1,6 +1,7 @@
 import { useRoutes } from 'react-router-dom'
 import Home from './pages/Home'
 import Instruction from './pages/Instruction'
+import Introduction from './pages/Introduction'
 import MainPage from './pages/MainPage'
 import AnimatedCursor from 'react-animated-cursor'
 
@@ -11,6 +12,10 @@ function App() {
     {
       path: '/',
       element: <Home />
+    },
+    {
+      path: '/introduction', 
+      element: <Introduction />
     },
     {
       path: '/instruction',

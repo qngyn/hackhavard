@@ -7,7 +7,7 @@ const Home = () => {
             <div className="homepage-headliner"> 
                 <div className="headliner-container">
                     <h1 className="headliner-content"> GAUSSISCAPE </h1>
-                    <h5 className="subheadliner-content"> THE FUTURE OF GAME DEV TOOL </h5>
+                    <h5 className="subheadliner-content"> REANIMATING THE METAVERSE </h5>
                 </div>
                 <div className="scroll-container">
                     <HiArrowLongDown size={25} className="arrow-down"/>
@@ -16,7 +16,7 @@ const Home = () => {
             </div>
             <div className="home-buttons">
                 <Button to = "/mainpage"> START </Button>
-                <Button to="/instruction"> INSTRUCTION </Button>
+                <Button to="/introduction"> LEARN MORE </Button>
             </div>
         </div>
     )
