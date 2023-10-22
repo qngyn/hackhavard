@@ -104,19 +104,25 @@ const Introduction = () => {
                                 </ul>
                             </p>
                         </Card>
-                        <Card>
-                            <h1>The New Dawn of the Metaverse </h1>
-                            <p>
-                                As technology and creativity converge, we find ourselves at a unique crossroads. The digital spaces we inhabit, the stories we tell, and the connections we forge are undergoing a profound transformation.
-                            </p>
-                        </Card>
+                         <Card>
+            <h1>Converting to 3D is Hard </h1>
+            <p>
+              <span className="list-main">Learning Curve:</span> The skills required for 3D design and modeling are significantly different from those for 2D. Artists or designers might need to undergo extensive training to master 3D tools and techniques. 3D modeling involves not just the external shape but also textures, shaders, lighting, and sometimes even internal structures. This demands meticulous attention to detail.
+              <br />
+              <span className="list-main">High Costs:</span> Professional 3D software can be expensive. Licenses for tools like Autodesk Maya, 3DS Max, or specialized software for industries like CAD or VFX can cost significant amounts.
+              <br />
+              <span className="list-main">Hardware Requirements:</span>
+              <ul>
+                <li>Powerful Systems: 3D modeling and rendering demand high computational power. Investing in powerful workstations with dedicated graphics units is often necessary.</li>
+                <li>Plugins and Assets: Beyond the primary software, many professional 3D artists rely on plugins or purchase additional assets, which can add to costs.</li>
+              </ul>
+            </p>
+          </Card>
                     </div>
                     <div className="body-bottom">
-                        <h3 className="card-heading"> Join us in redefining reality </h3>
+                        <h3 className="card-heading"> But We’ve Made it Easy </h3>
                         <p className="body-bottom-content">
-                            Experience the magic, wonder, and infinite possibilities as GaussiScape reanimates the metaverse. 
-                            <br />
-                            Welcome to the future of digital immersion
+                            No extreme learning curve. No insane costs involved. No ridiculous software required.
                         </p>
                         <div className="body-bottom-button">
                             <Button to="/mainpage"> GET STARTED </Button>
