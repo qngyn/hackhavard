@@ -25,6 +25,17 @@ const Introduction = () => {
                             <h1>The Power of Reanimation </h1>
                             <p>
                                 When we say "reanimating," we're not merely talking about breathing life into static digital worlds. We're talking about creating vibrant, dynamic, and immersive environments that pulse with the very essence of reality.
+                                <ul>
+                                    <li>
+                                        <span className="list-main">Authentic Interactions</span>: Gone are the days of clunky avatars and blocky landscapes. With GaussiScape, users can engage in an environment that mirrors the rich textures and detailed nuances of the real world, offering authentic interactions that were once the stuff of sci-fi dreams.
+                                    </li>
+                                    <li>
+                                        <span className="list-main">Endless Horizons</span>: Our 3D Gaussian Splatting technology does not just replicate the real world but offers developers the tools to morph, meld, and mold reality, crafting unique universes bound only by imagination.
+                                    </li>
+                                    <li>
+                                        <span className="list-main">Adaptive Experiences</span>: GaussiScape's environments aren't just static scenes. They're living, breathing ecosystems that respond and adapt to user interactions, ensuring each visit to the metaverse is as fresh and exciting as the first.
+                                    </li>
+                                </ul>
                             </p>
                         </Card>
                         <Card>

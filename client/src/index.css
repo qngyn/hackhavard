@@ -7,7 +7,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   /* background: linear-gradient(0deg, black 100%, #990147 10%); */
-  background: linear-gradient(0deg, #4d0024 1%, black 100%);
+  background: linear-gradient(0deg, #41001e 1%, black 100%);
   animation: waveAnimation 5s infinite;
 
   overflow-y: scroll;
@@ -22,7 +22,6 @@
 html {
   --cursor-color: white;
 }
-
 
 /* a {
   font-weight: 500;
@@ -251,3 +250,27 @@ button:focus-visible {
   color:  #990147;
 }
 
+.list-main {
+  font-weight: 600;
+}
+
+
+.upload-button {
+  width: 11em;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  padding: 0.4em 2em;
+  margin: 1em 0 0 0;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  border: solid 2px #990147;
+  transition: border-color 0.25s;
+  letter-spacing: 0.2em;
+}
+
+.upload-button:hover {
+  background-color: #990147;
+}
