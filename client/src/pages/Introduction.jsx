@@ -12,7 +12,7 @@ const Introduction = () => {
 
                 <div className="introduction-container">
                     <div className="headliner-container">
-                        <h1 className="headerliner-name"> Exploring the Tool </h1>
+                        <h1 className="headerliner-name"> EXPLORING THE TOOL </h1>
                     </div>
                     <div className="body-container">
                         <Card>
@@ -27,30 +27,79 @@ const Introduction = () => {
                                 Transforming 2D images to 3D affects fields that are worth hundreds of BILLIONS of dollars. 3D environments are significant due to several applications and here are some reasons why this conversion is crucial: 
                                 <ul>
                                     <li>
-                                        <span className="list-main">Enhanced Visualization and Immersion</span>: Depth Perception: 3D models provide a clearer understanding of depth and spatial relationships between objects, something that's not easily captured in 2D.
-Interactivity: Users can view 3D models from any angle, providing a more comprehensive perspective and interactive experience.
+                                        <span className="list-main">Enhanced Visualization and Immersion</span>: 
+                                        <ul>
+                                            <li>
+                                                Depth Perception: 3D models provide a clearer understanding of depth and spatial relationships between objects, something that's not easily captured in 2D.
+                                            </li>
+                                            <li>
+                                                Interactivity: Users can view 3D models from any angle, providing a more comprehensive perspective and interactive experience.
+                                            </li>
+                                        </ul>
+
                                     </li>
                                     <li>
-                                        <span className="list-main">Medical Imaging</span>: Diagnosis: 3D reconstruction from 2D medical scans, like MRI or CT, allows doctors to view and analyze anomalies in the body more precisely.
-Surgery Planning: Surgeons can plan interventions better by visualizing the exact morphology and position of organs, tumors, or vessels in 3D.
+                                        <span className="list-main">Medical Imaging</span>: 
+                                        <ul>
+                                            <li>
+                                                Diagnosis: 3D reconstruction from 2D medical scans, like MRI or CT, allows doctors to view and analyze anomalies in the body more precisely.
+                                            </li>
+                                            <li>
+                                                Surgery Planning: Surgeons can plan interventions better by visualizing the exact morphology and position of organs, tumors, or vessels in 3D.
+                                            </li>
+                                        </ul>
+
                                     </li>
                                     <li>
-                                        <span className="list-main">Engineering and Manufacturing</span>: Design: CAD tools use 3D models to design everything from machinery to buildings. These models help in detecting design flaws, analyzing structures, and simulating performance.
-Prototyping: With 3D printing becoming more prevalent, converting 2D ideas to 3D models is crucial for rapid prototyping.
+                                        <span className="list-main">Engineering and Manufacturing</span>: 
+                                        <ul>
+                                            <li>
+                                                Design: CAD tools use 3D models to design everything from machinery to buildings. These models help in detecting design flaws, analyzing structures, and simulating performance.
+                                            </li>
+                                            <li>
+                                                Prototyping: With 3D printing becoming more prevalent, converting 2D ideas to 3D models is crucial for rapid prototyping.
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        <span className="list-main">Entertainment and Media</span>: Video Games: Modern games rely on 3D environments and characters for realistic and immersive experiences.
-Movies: 3D modeling and animation have become staples in film production, especially in CGI-intensive movies.
+                                        <span className="list-main">Entertainment and Media</span>: 
+                                        <ul>
+                                            <li>
+                                                Video Games: Modern games rely on 3D environments and characters for realistic and immersive experiences.
+                                            </li>
+                                            <li>
+                                                Movies: 3D modeling and animation have become staples in film production, especially in CGI-intensive movies.
+                                            </li>
+                                        </ul>
+                                        
                                     </li>
                                      <li>
-                                        <span className="list-main">Education and Training</span>: Interactive Learning: From exploring human anatomy to understanding complex machinery, 3D models can provide students with hands-on, interactive learning experiences.
+                                        <span className="list-main">Education and Training</span>: 
+                                        <ul>
+                                            <li>
+                                            Interactive Learning: From exploring human anatomy to understanding complex machinery, 3D models can provide students with hands-on, interactive learning experiences.
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        <span className="list-main">Cultural Preservation</span>: Historical Artifacts and Sites: 3D models can digitally preserve and document historical sites or artifacts, especially those at risk of deterioration or destruction.
+                                        <span className="list-main">Cultural Preservation</span>: 
+                                        <ul>
+                                            <li>
+                                                Historical Artifacts and Sites: 3D models can digitally preserve and document historical sites or artifacts, especially those at risk of deterioration or destruction.
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        <span className="list-main">Real-world Integration</span>:  For AR applications, 3D models derived from 2D images of the real world can be integrated into virtual environments.
-VR Worlds: Entire environments can be built using 3D modeling, enabling users to immerse themselves in virtually any setting.
+                                        <span className="list-main">Real-world Integration</span>:  
+                                        <ul>
+                                            <li>
+                                                For AR applications, 3D models derived from 2D images of the real world can be integrated into virtual environments.
+                                            </li>
+                                            <li>
+                                                VR Worlds: Entire environments can be built using 3D modeling, enabling users to immerse themselves in virtually any setting.
+                                            </li>
+                                        </ul>
+
                                     </li>
                                 </ul>
                             </p>
