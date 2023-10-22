@@ -12,28 +12,45 @@ const Introduction = () => {
 
                 <div className="introduction-container">
                     <div className="headliner-container">
-                        <h1 className="headerliner-name"> EXPLORING THE TOOL </h1>
+                        <h1 className="headerliner-name"> Exploring the Tool </h1>
                     </div>
                     <div className="body-container">
                         <Card>
-                            <h1>Breathe Life into the Digital Realm </h1>
+                            <h1>What is GaussiScape? </h1>
                             <p>
-                                GaussiScape stands at the cutting edge of metaverse technology, taking the virtual experiences we know today and catapulting them into hyper-realistic, tangible realms of tomorrow. As we declare, "GaussiScape is reanimating the metaverse." But what does that truly mean for developers, creators, and users alike?
+                                Leveraging the breakthrough with Gaussian splatting technology, GaussiSpace is a webtool that transforms simple 2D imagery into immersive 3D landscapes. With applications spanning virtual/augmented reality, education, and medical imaging we're not just creating a tool—we're pioneering a 3D digital revolution.
                             </p>
                         </Card>
                         <Card>
-                            <h1>The Power of Reanimation </h1>
+                            <h1>3D, so what? </h1>
                             <p>
-                                When we say "reanimating," we're not merely talking about breathing life into static digital worlds. We're talking about creating vibrant, dynamic, and immersive environments that pulse with the very essence of reality.
+                                Transforming 2D images to 3D affects fields that are worth hundreds of BILLIONS of dollars. 3D environments are significant due to several applications and here are some reasons why this conversion is crucial: 
                                 <ul>
                                     <li>
-                                        <span className="list-main">Authentic Interactions</span>: Gone are the days of clunky avatars and blocky landscapes. With GaussiScape, users can engage in an environment that mirrors the rich textures and detailed nuances of the real world, offering authentic interactions that were once the stuff of sci-fi dreams.
+                                        <span className="list-main">Enhanced Visualization and Immersion</span>: Depth Perception: 3D models provide a clearer understanding of depth and spatial relationships between objects, something that's not easily captured in 2D.
+Interactivity: Users can view 3D models from any angle, providing a more comprehensive perspective and interactive experience.
                                     </li>
                                     <li>
-                                        <span className="list-main">Endless Horizons</span>: Our 3D Gaussian Splatting technology does not just replicate the real world but offers developers the tools to morph, meld, and mold reality, crafting unique universes bound only by imagination.
+                                        <span className="list-main">Medical Imaging</span>: Diagnosis: 3D reconstruction from 2D medical scans, like MRI or CT, allows doctors to view and analyze anomalies in the body more precisely.
+Surgery Planning: Surgeons can plan interventions better by visualizing the exact morphology and position of organs, tumors, or vessels in 3D.
                                     </li>
                                     <li>
-                                        <span className="list-main">Adaptive Experiences</span>: GaussiScape's environments aren't just static scenes. They're living, breathing ecosystems that respond and adapt to user interactions, ensuring each visit to the metaverse is as fresh and exciting as the first.
+                                        <span className="list-main">Engineering and Manufacturing</span>: Design: CAD tools use 3D models to design everything from machinery to buildings. These models help in detecting design flaws, analyzing structures, and simulating performance.
+Prototyping: With 3D printing becoming more prevalent, converting 2D ideas to 3D models is crucial for rapid prototyping.
+                                    </li>
+                                    <li>
+                                        <span className="list-main">Entertainment and Media</span>: Video Games: Modern games rely on 3D environments and characters for realistic and immersive experiences.
+Movies: 3D modeling and animation have become staples in film production, especially in CGI-intensive movies.
+                                    </li>
+                                     <li>
+                                        <span className="list-main">Education and Training</span>: Interactive Learning: From exploring human anatomy to understanding complex machinery, 3D models can provide students with hands-on, interactive learning experiences.
+                                    </li>
+                                    <li>
+                                        <span className="list-main">Cultural Preservation</span>: Historical Artifacts and Sites: 3D models can digitally preserve and document historical sites or artifacts, especially those at risk of deterioration or destruction.
+                                    </li>
+                                    <li>
+                                        <span className="list-main">Real-world Integration</span>:  For AR applications, 3D models derived from 2D images of the real world can be integrated into virtual environments.
+VR Worlds: Entire environments can be built using 3D modeling, enabling users to immerse themselves in virtually any setting.
                                     </li>
                                 </ul>
                             </p>
